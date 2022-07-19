@@ -346,10 +346,15 @@ input {
   color: var(--txt-secondary-color);
 }
 
-.input-area:hover,
+.input-area-box {
+  border-radius: 3px;
+  transition: border var(--animation-duration) + var(--timing-function);
+}
+
+.input-area-box:hover,
 .input-area-box:focus {
   border: 1px solid var(--brand-color);
-  fill: var(--brand-color);
+  border-radius: 3px;
   outline: transparent;
 }
 
@@ -364,7 +369,7 @@ input {
   padding-left: 42px;
   color: rgba(117, 117, 117, 0.5);
 
-  transition: border-color var(--timing-function) + var(--animation-duration);
+  transition: border var(--timing-function) + var(--animation-duration);
 }
 
 .input-area:hover,
