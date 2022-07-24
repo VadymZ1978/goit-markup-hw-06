@@ -348,6 +348,7 @@ input {
 
 .input-area-box {
   border-radius: 3px;
+  color: rgba(29, 29, 29, 0.9);
   transition: border var(--animation-duration) var(--timing-function);
 }
 
@@ -367,7 +368,7 @@ input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
-  color: rgba(50, 50, 50, 0.9);
+  color: rgba(30, 30, 30, 0.9);
 
   transition: border var(--timing-function) var(--animation-duration);
 }
@@ -377,6 +378,7 @@ input {
 .input-area:active {
   border: 1px solid var(--brand-color);
   outline: transparent;
+  color: rgba(29, 29, 29, 0.9);
 }
 
 .icon-modal-person,
