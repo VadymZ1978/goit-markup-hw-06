@@ -348,7 +348,7 @@ input {
 
 .input-area-box {
   border-radius: 3px;
-  transition: border var(--animation-duration) + var(--timing-function);
+  transition: border var(--animation-duration) var(--timing-function);
 }
 
 .input-area-box:hover,
@@ -367,9 +367,9 @@ input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
-  color: rgba(117, 117, 117, 0.5);
+  color: rgba(117, 117, 117, 0.9);
 
-  transition: border var(--timing-function) + var(--animation-duration);
+  transition: border var(--timing-function) var(--animation-duration);
 }
 
 .input-area:hover,
@@ -388,7 +388,7 @@ input {
   outline: transparent;
   transform: translateY(180%);
 
-  transition: fill var(--timing-function) + var(--animation-duration);
+  transition: fill var(--timing-function) var(--animation-duration);
 }
 
 .input-area:hover + .icon-modal-person,
@@ -427,17 +427,17 @@ input {
   margin-right: 9px;
   border-radius: 2px;
   cursor: pointer;
-  transition: border-color var(--timing-function) + var(--animation-duration),
-    outline var(--timing-function) + var(--animation-duration);
+  transition: border-color var(--timing-function) var(--animation-duration),
+    outline var(--timing-function) var(--animation-duration);
 }
 
 .checkbox-sqr:checked + .icon-modal-box {
   background-color: var(--brand-color);
   border-color: var(--brand-color);
   outline: 2px solid var(--brand-color);
-  transition: background-color var(--timing-function) + var(--animation-duration),
-    border-color var(--timing-function) + var(--animation-duration),
-    outline var(--timing-function) + var(--animation-duration);
+  transition: background-color var(--timing-function) var(--animation-duration),
+    border-color var(--timing-function) var(--animation-duration),
+    outline var(--timing-function) var(--animation-duration);
 }
 
 .agreement-link {
@@ -753,9 +753,9 @@ input {
   letter-spacing: 3%;
   cursor: pointer;
   padding: 6px 22px;
-  transition: background-color var(--animation-duration) + var(--timing-function),
-    color var(--animation-duration) + var(--timing-function),
-    box-shadow var(--animation-duration) + var(--timing-function);
+  transition: background-color var(--animation-duration) var(--timing-function),
+    color var(--animation-duration) var(--timing-function),
+    box-shadow var(--animation-duration) var(--timing-function);
 }
 
 .filter-btn:hover,
